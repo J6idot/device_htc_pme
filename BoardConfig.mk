@@ -17,7 +17,7 @@
 
 BOARD_VENDOR := htc
 
-VENDOR_PATH := device/htc/pme
+VENDOR_PATH := device/htc/pme_test
 
 # Architecture
 TARGET_ARCH := arm64
@@ -149,6 +149,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3582984192
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/dsp:/dsp
+TARGET_USES_MKE2FS := true
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
@@ -192,5 +193,5 @@ WIFI_DRIVER_FW_PATH_P2P     := "/vendor/firmware/fw_bcm4359.bin"
 WIFI_DRIVER_FW_PATH_STA     := "/vendor/firmware/fw_bcm4359.bin"
 
 # Inherit from the proprietary version
--include vendor/htc/pme/BoardConfigVendor.mk
+-include vendor/htc/pme_test/BoardConfigVendor.mk
 

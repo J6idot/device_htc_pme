@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=pme
+DEVICE=pme_test
 VENDOR=htc
 
 # Load extract_utils and do some sanity checks

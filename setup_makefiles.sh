@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=pme
+DEVICE=pme_test
 VENDOR=htc
 
 INITIAL_COPYRIGHT_YEAR=2016
