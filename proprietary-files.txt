@@ -194,7 +194,7 @@ vendor/bin/hostapd_cli
 vendor/bin/hvdcp_opti
 vendor/bin/hw/brcm-uim-sysfs
 vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/hw/vendor.nxp.nxpnfc@1.0-service
+#vendor/bin/hw/vendor.nxp.nxpnfc@1.0-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
 vendor/bin/hw/vendor.qti.gnss@1.0-service
 vendor/bin/hw/vendor.qti.hardware.iop@1.0-service
@@ -1335,3 +1335,25 @@ vendor/lib64/libsdm-diag.so|e27a62468b4ba69f4b277ba0cde40045a717cd65
 vendor/lib64/libsdm-disp-vndapis.so|6e3badb9c989fe0a1a646c4c6e360d94839b123e
 vendor/lib64/libsdmextension.so|e71c53f1edf56dd8e8ead322caae4172f3163808
 vendor/lib64/libtinyxml2_1.so|8876b148e0246a770094b9abf7ee3e581d4ecd29
+
+# Dependencies
+lib/libxml2.so
+lib64/libxml2.so
+lib/vendor.qti.hardware.iop@1.0.so
+lib64/vendor.qti.hardware.iop@1.0.so
+lib/libmorpho_movie_stabilizer4.so
+lib/libawb_calibration.so
+lib64/libawb_calibration.so
+lib/libaudioroute.so
+lib64/libaudioroute.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib64/libtinycompress_vendor.so
+lib/lib_fp_img_store.so
+lib64/lib_fp_img_store.so
+vendor/lib/librmnetctl.so
+vendor/lib64/librmnetctl.so
+vendor/lib/libsensorndkbridge.so
+vendor/lib/libtinyxml.so
+vendor/lib64/libtinyxml.so
+vendor/lib/libkeystore-wifi-hidl.so
+vendor/lib64/libkeystore-wifi-hidl.so
